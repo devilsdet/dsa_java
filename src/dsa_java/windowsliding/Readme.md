@@ -31,9 +31,18 @@
 			return ans;
 		}
 		
-###MaximumSumSubArrayOfSizeK_01
+### MaximumSumSubArrayOfSizeK_01
 	Given a array of size n, find the sub array of size k, where sum is 	maximum
-	IP: arr: {2, 3, 5, 3, 6, 8}
-	k = 3;
+	IP: 	arr: {2, 3, 5, 3, 6, 8}
+			k = 3;
 	
 	OP: 17
+	
+### FirstNegativeNumberInWindowSizeK_02
+	Given a array of size n, find the first minimum in the sub array of size 	k.
+	IP: 	arr: {12, -1, -7, 8, -15, 30, 28}
+			k = 3
+	OP:		{-1, -1, -7, -15, -15, 0}		
+	
+	
+	
