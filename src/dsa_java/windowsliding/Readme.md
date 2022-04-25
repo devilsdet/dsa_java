@@ -42,7 +42,15 @@
 	Given a array of size n, find the first minimum in the sub array of size 	k.
 	IP: 	arr: {12, -1, -7, 8, -15, 30, 28}
 			k = 3
-	OP:		{-1, -1, -7, -15, -15, 0}		
+	OP:		{-1, -1, -7, -15, -15, 0}	
+
+### CountOfOccurrenceOfAnagram_03
+	Given a String and a pattern find all the anagram of the pattern is 	present in the string
+	
+	IP: String str = "fxoraxofxo";
+		 String pattern = "fox";
+	OP: 4	 
+		
 	
 	
 	
