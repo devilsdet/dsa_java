@@ -50,7 +50,16 @@
 	IP: String str = "fxoraxofxo";
 		 String pattern = "fox";
 	OP: 4	 
-		
+
+### MaximumOfAllSubArrayOfSizeK_04		
+	Given an array, we have to find all the elements in the subarray of size 	k.
+	IP: arr = [1, 3, -1, -3, 5, 3, 6 7];
+		 k = 3;
+	OP: {3, 3, 5, 5, 6, 7}	  
+	
+	Concepts:
+	Here we can compare the consecutive elemens and we can update the max eleemnt.
+	But once we delete the max element then we should have max eleemnt in remainin k-1 window.
 	
 	
 	
