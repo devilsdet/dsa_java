@@ -61,5 +61,9 @@
 	Here we can compare the consecutive elemens and we can update the max eleemnt.
 	But once we delete the max element then we should have max eleemnt in remainin k-1 window.
 	
-	
+### LargestSubArrayOfSumK_05
+    Given an array, find the maximum subarray length whose sum is equal to a given sum.
+    IP: arr = {4, 1, 1, 1, 2, 3, 5};
+        sum = 5
+    OP: 4 (1+1+1+2)
 	
