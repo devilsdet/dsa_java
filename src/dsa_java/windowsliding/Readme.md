@@ -1,4 +1,4 @@
-#Introduction Identification Types:
+## Introduction Identification Types:
 
 	Given an array find the sub array of size.
 	In this technique, w are given an array or string , we need to identify 
@@ -66,4 +66,10 @@
     IP: arr = {4, 1, 1, 1, 2, 3, 5};
         sum = 5
     OP: 4 (1+1+1+2)
+
+### LargestSubStringWithKRepeatingChars_06
+    Given a String find the largest substring with k repeated charcaters 
+
+### LargestSubStringWithNoRepeatingCharacters_07
+    Given a String find the largest substring with unique charcaters 
 	
