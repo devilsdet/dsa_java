@@ -69,4 +69,7 @@
 
 ### LargestSubStringWithKRepeatingChars_06
     Given a String find the largest substring with k repeated charcaters 
+
+### LargestSubStringWithNoRepeatingCharacters_07
+    Given a String find the largest substring with unique charcaters 
 	

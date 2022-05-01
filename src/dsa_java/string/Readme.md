@@ -42,7 +42,7 @@ is 0.
 
 Given two strings 'str1' and 'str2', check if these two strings are isomorphic to each other.
 Two strings str1 and str2 are called isomorphic if there is a one to one mapping possible for every character of str1 to every character of str2 while preserving the order.
-Note: All occurrences of every character in ‘str1’ should map to the same character in ‘str2’
+Note: All occurrences of every character in ï¿½str1ï¿½ should map to the same character in ï¿½str2ï¿½
 
 Input:
 str1 = aab
@@ -61,3 +61,16 @@ charactersin aab but there are three
 different charactersin xyz. So there
 won't be one to one mapping between
 str1 and str2.
+
+### ZigzagPatternPrinting
+The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows like this: 
+(you may want to display this pattern in a fixed font for better legibility)
+
+P   A   H   N
+A P L S I I G
+Y   I   R
+And then read line by line: "PAHNAPLSIIGYIR"
+
+Write the code that will take a string and make this conversion given a number of rows:
+
+string convert(string s, int numRows);
