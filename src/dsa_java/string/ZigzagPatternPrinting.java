@@ -20,7 +20,7 @@ public class ZigzagPatternPrinting {
                 sb[j].append(s.charAt(i));
                 i++;
             }
-            for(int j=rows-1; j>0 && i<s.length(); j--) {
+            for(int j=rows-2; j>0 && i<s.length(); j--) {
                 sb[j].append(s.charAt(i));
                 i++;
             }
