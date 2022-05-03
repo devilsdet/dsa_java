@@ -31,3 +31,8 @@ Given an array, find the largest element which is near to the element
 	}	
 	
 	In stack implementation we should start i from end of the arr length;
+
+### NearestGreaterToLeft_02
+    Given a array, find the first largest element which is present on the left side of the element
+    IP: arr = {1, 3, 2, 4}
+    OP: arr = {-1, -1, 3, -1}
