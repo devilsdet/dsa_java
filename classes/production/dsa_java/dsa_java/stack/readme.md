@@ -36,3 +36,8 @@ Given an array, find the largest element which is near to the element
     Given a array, find the first largest element which is present on the left side of the element
     IP: arr = {1, 3, 2, 4}
     OP: arr = {-1, -1, 3, -1}
+
+### NearestSmallerToLeft_03
+    Given a array, find the first smaller element which is present on the left side of the element.
+    IP: {4, 5, 2, 10, 8}
+    OP: {-1, 4, -1, 2, 2}

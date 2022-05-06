@@ -17,3 +17,11 @@ OP: First Occurrence Index = 2
 Given a sorted array, find the Last occurrence of an element.
 IP: arr[] = {2, 4, 10, 10, 10, 18, 20}
 OP: Last Occurrence Index = 4
+
+### CountOfAnElementInSortedArrat_06
+Given a sorted array, print the number of times one given element is present.
+IP: arr[] = {2, 4, 10, 10, 10, 18, 20}
+OP: Number of element = 3
+
+Theory:
+    Count of Element = (Last occurrence of element - First Occurrence of element) + 1;

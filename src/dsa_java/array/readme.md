@@ -32,4 +32,3 @@
     Concept:
         in the array find the index by geting nums[i];Then masrk the nums[i] as negative.
         if again the number comes, that means we visted it. hence mark it as output.
-        

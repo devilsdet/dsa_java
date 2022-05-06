@@ -51,5 +51,5 @@
 							solve (s, k-1)
 		
 		
-	
+### TriangularNumber_07	
 	

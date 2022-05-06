@@ -84,5 +84,43 @@ Code:
                     t[i][j] = t[i-1][j];
                 }
             
+### SubsetSumTD_02
+    Given an input array, where we can find a subset sum of k
+    IP:     arr; {2, 3, 7, 8, 10}
+            sum = 11;
+    OP:     true
 
-        
+This problem is a DP problem with knapack concepts. Here we are given with one item array (arr) and
+weight is given as sum (11). We can take any eleemnt (either 2 or 3 or 7 ) or we cant take.
+As we are making a choice of an eleemnt, it falls down to knapsack -01 type problem.
+
+Here however we need to return true if any of the subset sum is giving you the sum. so insted of 
+addition, we need to provide a bollean parameter.
+
+    Code Snippet:
+         for(int i=1; i<arr.length+1; i++) {
+            for(int j=1; j<sum+1; j++) {
+                if(arr[i-1] <= j) {
+                    t[i][j] = t[i-1][j-arr[i-1]] || t[i-1][j];
+                } else {
+                    t[i][j] = t[i-1][j];
+                }
+            }
+        }
+
+### EqualSumPartition_03
+    Given an input array, find if we can divide the array with equal sum.
+    IP:  arr: {1, 5, 11, 5}
+    OP: true
+
+This problem is a part of subset sum partition. In subset sum we are given to find a sum, here
+we have to divide the array with equal sum (x).
+
+so basically if subset sum1 and subset sum2 have equal sum , then the entire sum of the array will be twice of the 
+sum
+
+x + x = 2x = sum of array.
+so here we need to find x.
+
+2x-sum = 0
+x = sum/2;
