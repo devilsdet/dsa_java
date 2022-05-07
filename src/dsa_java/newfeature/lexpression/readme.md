@@ -86,3 +86,23 @@ This is valid as interface. the child interface will have single abstarct method
 
 
 A separate .class file will not be generated for lambda expression.
+
+
+Lambda Expression VS Annonymous Classes.
+=========================================================
+Annonymous inner classes are not substutes for lamda expression
+
+Thread T = new Thread();
+
+Thread T = new Thread() {
+
+};
+
+Here i am writing a class that extends thread class. That means we are creating the child class of thread
+If a interface is having more than one public abstract method, then we can go for annonymous inner class.
+
+Annonymous inner class != lambda expression
+
+If annonymous inner class implements interface, that contains a single abstract method, then only we can
+replace the annonymous inner classes with lambda exression.
+
