@@ -41,3 +41,8 @@ Given an array, find the largest element which is near to the element
     Given a array, find the first smaller element which is present on the left side of the element.
     IP: {4, 5, 2, 10, 8}
     OP: {-1, 4, -1, 2, 2}
+
+### NearestSmallerToRight_04
+    Given an array, find the first smaller element which is present on the right side of the element.
+    IP: {4, 5, 2, 10, 8}
+    OP: {2, 2, -1, 8, -1}

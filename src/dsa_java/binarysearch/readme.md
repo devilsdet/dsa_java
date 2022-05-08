@@ -25,3 +25,14 @@ OP: Number of element = 3
 
 Theory:
     Count of Element = (Last occurrence of element - First Occurrence of element) + 1;
+
+### NumberOfTimesASortedArrayIsRotated_07
+
+Given a sorted rotated array, find the number of times it is rotated.
+IP: arr[] = {11, 12, 15, 18, 2, 5, 6, 8}
+OP: 4
+
+Theory:
+    The number of times the array is roated is the index of the smallest element in
+the array. To fin dthe smallest element, we know it should be smaller than the both of the 
+neighbours.

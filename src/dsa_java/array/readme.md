@@ -32,3 +32,8 @@
     Concept:
         in the array find the index by geting nums[i];Then masrk the nums[i] as negative.
         if again the number comes, that means we visted it. hence mark it as output.
+
+### RemoveAllDuplicatesFromArray_04
+Given an integer array nums sorted in non-decreasing order, 
+remove the duplicates in-place such that each unique element appears only once. 
+The relative order of the elements should be kept the same.

@@ -2,7 +2,8 @@ package dsa_java.recursion;
 
 import java.util.Stack;
 
-public class SortAStackUsinRecursion_04 {
+public class
+SortAStackUsinRecursion_04 {
 
 	public static void main(String[] args) {
 		Stack<Integer> stack = new Stack<>();

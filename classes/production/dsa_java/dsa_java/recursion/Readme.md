@@ -52,4 +52,63 @@
 		
 		
 ### TriangularNumber_07	
-	
+
+### ReverseAStackUsingRecursion_09
+
+    Reverse a stack without using extra space.
+    Hypothesis:
+            Store the top element of the stack. and 
+            there is a function that will reverse the stack.
+    Induction: 
+            We will insert the elemnt at the end of the stack
+        Insert Function:
+            Hypothesis:
+                we wiil remove the top eleemnt of the stack and will put the elemnt in the end of the
+                stack. then we will insert at the end.
+
+### KthSymbolOfGrammar_10
+
+We build a table of n rows (1-indexed). We start by writing 0 in the 1st row. 
+Now in every subsequent row, we look at the previous row and replace each occurrence of 0 with 01, 
+and each occurrence of 1 with 10.
+
+For example, for n = 3, the 1st row is 0, the 2nd row is 01, and the 3rd row is 0110.
+Given two integer n and k, return the kth (1-indexed) symbol in the nth row of a table of n rows.
+
+        N=0   0
+        N=1   0 1
+        N=2   0 1 1 0
+        N=3   0 1 1 0 1 0 0 1
+
+Input: n = 2, k = 2
+Output: 1
+Explanation:
+row 1: 0
+row 2: 01  
+
+### TowerOfHanoi_11
+    IP: number of plates N
+        Plates 1 , 2 , 3
+    
+    void solve(int s, int d, int h, int n){
+        if(n == 1) {
+            print()
+        }
+        solve(s, h, d, n-1);
+        print(moving n from s to d);
+        solve(h, d, s, n-1);
+        return;
+    }
+
+### AllPermutationOfString_11
+
+We can solve this method by input output method.
+Lets consider the following input "ab".
+
+                        output ip
+                           ""  "ab"
+                        ""    "b"  "ab"
+                    ""    ""  "b"   "a" "ab"
+
+so as we can see we are having two output after each iteration (One without the char and other with 
+character). When the length of input is zero, we are getting the output.
