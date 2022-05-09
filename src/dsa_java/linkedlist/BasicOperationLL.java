@@ -8,5 +8,7 @@ public class BasicOperationLL {
         LinkNodeUtil.printLinkedList(newNode);
         LinkNode<Integer> newNode1 = LinkNodeUtil.insertAtEnd(head, 10);
         LinkNodeUtil.printLinkedList(newNode1);
+        LinkNode<Integer> newNode2 = LinkNodeUtil.reverseLinkedList(newNode1);
+        LinkNodeUtil.printLinkedList(newNode2);
     }
 }

@@ -47,4 +47,18 @@ public final class LinkNodeUtil {
         return head;
     }
 
+    public static <T> LinkNode reverseLinkedList(LinkNode head) {
+        LinkNode prev = null;
+        LinkNode current = head;
+        LinkNode next = head;
+        while (next != null) {
+            next = next.next;
+            current.next = prev;
+            prev = current;
+            current = next;
+        }
+        return prev;
+
+    }
+
 }

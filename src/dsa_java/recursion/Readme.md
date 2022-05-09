@@ -112,3 +112,15 @@ Lets consider the following input "ab".
 
 so as we can see we are having two output after each iteration (One without the char and other with 
 character). When the length of input is zero, we are getting the output.
+
+
+### PrintUniqueSubsets_12
+
+    Same for 
+    Print All Subset (Order is not maintained)
+    Print All Subsequence (Order is maintained)
+    Print all powerset
+
+    abc = "" a b c ab ac bc abc (Subsequence)
+    abc = subsequence + not maintained order
+
