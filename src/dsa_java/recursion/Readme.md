@@ -124,3 +124,31 @@ character). When the length of input is zero, we are getting the output.
     abc = "" a b c ab ac bc abc (Subsequence)
     abc = subsequence + not maintained order
 
+### PermutationWithSpaces_13
+
+Given a string you need to print all possible strings 
+that can be made by placing spaces (zero or one) in between them. 
+Output should be printed in sorted increasing order of strings.
+
+Input:  str[] = "ABC"
+Output: (A B C)(A BC)(AB C)(ABC) . 
+
+This is recursive problem as we have choices and decissions. about space.
+So it is basd on IP-OP method approach in solving the problem.
+
+                    OP IP
+                ""     "ABC"
+            ""     
+
+### LetterCasePermutation_14
+Given a string as a1b2, we need to print all the combinatation with both cases .
+
+IP: a1b2
+OP: a1b2, A1b2, a1B2, A1B2
+
+### PermutationWithCaseChange_15
+
+IP : ab
+OP: AB aB Ab ab
+
+### GenerateAllBalancedParanthesis_16
