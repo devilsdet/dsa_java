@@ -46,3 +46,25 @@ Given an array, find the largest element which is near to the element
     Given an array, find the first smaller element which is present on the right side of the element.
     IP: {4, 5, 2, 10, 8}
     OP: {2, 2, -1, 8, -1}
+
+### StockSpanProblem_05
+    Given stocks for a week, we need to findout all the amount which is consectively smaller
+    or equal to that amount in previous days.
+    arr: 100 80 60 70 60 75 85
+    OP:  1    1  1  2  1  4  6
+
+### MaximumAreaHistogram_07
+    Given an array representing height of buildings, find the maximum area of histogram.
+    arr[] = {6, 2, 5, 4, 5, 1, 6}
+    OP = 12
+
+    A building can be extended if the neighbouring building height are more than smaller building.
+    A building can be extended in to building only when other building is greater to the uilding element
+
+    here we need to the following steps: (assumptions -1 as index before starting index and 0 as index last to left)
+    1. First calculate NSR
+    2. Then calculate NSL
+    3. Then caluclate Width[i] = NSR[i] - NSL[i]-1
+    4. Then calculate Height[i] = arr[i]
+    5. Then calculate Area[i] = Height[i] * Width[i]
+    6. Then find the maximum

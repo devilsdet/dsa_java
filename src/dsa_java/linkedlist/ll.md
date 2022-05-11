@@ -18,3 +18,14 @@ We will initialize these nodes with head (currentnode and NextNode) and previous
 
     Here the catch is disconnect current node from next node and assign it to prev node.
     Then we need to again prev node.
+
+### FindMiddleElementInLinkedList
+    We have to maintain two pointers slow and fast.
+    we have to incrment slow with to next address while we need to increment the fast pointer twice.
+    slow = slow.next
+    fast = fast.next.next
+
+### CheckLinkedListPalliandromic
+    1. First find the middle element in linked list.
+    2. Reverse the last half of the linked list.
+    3. Then check the first half and second half
