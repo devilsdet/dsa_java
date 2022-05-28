@@ -13,19 +13,18 @@ public class SortCharacterByFrequency {
     }
 
     private static String sortCharacterByFrequency(String s) {
-        Map<Character, Integer> hm = new HashMap<>();
-        for(char c: s.toCharArray()) {
-            hm.put(c, hm.getOrDefault(c, 0)+ 1);
-        }
-        StringBuilder sb = new StringBuilder();
-        Queue<Map.Entry<Character, Integer>> queue = new PriorityQueue<>((a, b) -> b.getValue() - a.getValue());
-        queue.addAll(hm.entrySet());
-        while (!queue.isEmpty()) {
-            Map.Entry<Character, Integer> entry = queue.poll();
-            for(int i=0; i<entry.getValue(); i++) {
-                sb.append(entry.getKey());
-            }
-        }
-        return sb.toString();
+      Map<Character, Integer> hm = new HashMap<>();
+      for(char c: s.toCharArray())
+          hm.put(c, hm.getOrDefault(c,0)+1);
+     Queue<Map.Entry<Character, Integer>> queue = new PriorityQueue<>((a, b) -> b.getValue() - a.getValue());
+     queue.addAll(hm.entrySet());
+     StringBuilder sb = new StringBuilder();
+     while (!queue.isEmpty()) {
+         Map.Entry<Character, Integer> hs = queue.poll();
+         for(int i = 0; i < hs.getValue(); i++) {
+             sb.append(hs.getKey());
+         }
+     }
+     return sb.toString();
     }
 }
