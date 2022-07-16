@@ -7,7 +7,6 @@ public class BubbleSort_01 {
         int[] arr = {8, 2, 3, 5, 7};
         System.out.println(Arrays.toString(bubbleSort(arr)));
     }
-
     private static int[] bubbleSort(int[] arr) {
         int start = 0;
         int end = arr.length - 1;
