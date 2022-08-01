@@ -1,0 +1,11 @@
+
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Â¯Þç
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸Ê©øûÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½Ç¦œøÿÿÿÿ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹¿û‚
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªý‘ìúÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(·¾Ýƒúÿÿÿÿ
+d
+java:S2259"BA "NullPointerException" could be thrown; "temp" is nullable here.(ùäîÃøÿÿÿÿ8¼íÐù 0
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ïŸ³ú
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ùäîÃøÿÿÿÿ
