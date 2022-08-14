@@ -1,2 +1,6 @@
-bin/
-classes/
+bin
+classes
+.idea
+.settings
+.classpath
+.project

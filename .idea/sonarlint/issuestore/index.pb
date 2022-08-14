@@ -51,5 +51,3 @@ k
 ;src/dsa_java/prepcoding/string/LeetCode838_PushDominos.java,5\1\5194e2e2cad04d30ffaef281d97d72dead4c57ce
 i
 9src/dsa_java/queu/priorityq/SortCharacterByFrequency.java,4\f\4fea9da22c789e08d67a3843e94602fe86c9cd57
-s
-Csrc/leetcode/dynamic_programming/LongestPalliandromicSubString.java,6\4\64cb227ef974d3cca58c6d4e3344ce6cc3e6e201
